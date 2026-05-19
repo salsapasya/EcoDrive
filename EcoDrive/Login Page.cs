@@ -8,21 +8,11 @@ using System.Windows.Forms;
 
 namespace EcoDrive
 {
-    public partial class Form2 : Form
+    public partial class Login_Page : Form
     {
-        public Form2()
+        public Login_Page()
         {
             InitializeComponent();
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel4_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

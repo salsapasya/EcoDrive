@@ -1,6 +1,6 @@
 ﻿namespace EcoDrive
 {
-    partial class Form2
+    partial class Login_Page
     {
         /// <summary>
         /// Required designer variable.
@@ -28,24 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
+            panel1 = new Panel();
             SuspendLayout();
             // 
-            // Form2
+            // panel1
+            // 
+            panel1.BackgroundImage = Properties.Resources.Sign_Up_Page1;
+            panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.Dock = DockStyle.Fill;
+            panel1.Enabled = false;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1534, 780);
+            panel1.TabIndex = 0;
+            // 
+            // Login_Page
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Linen;
-            BackgroundImage = Properties.Resources.Dashboard;
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1494, 771);
-            DoubleBuffered = true;
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            Name = "Form2";
-            Text = "Form2";
+            AutoSize = true;
+            BackgroundImage = Properties.Resources.Sign_Up_Page1;
+            ClientSize = new Size(1534, 780);
+            Controls.Add(panel1);
+            Name = "Login_Page";
+            Text = "Login_Page";
             WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Panel panel1;
     }
 }
